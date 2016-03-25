@@ -1,0 +1,70 @@
+# Title
+**A Centralized Library for Convex Optimization.**
+
+## Abstract
+
+
+## Why this project?
+
+
+## Schedule of Deliverables
+
+### May 25th -  June 7th
+Data Structures and DCP_Check module
+
+### June 8th - June 21th
+Matrix-free canonicalization - phase 1
+
+### June 22nd - July 5th
+Matrix-free canonicalization - phase 2 Documentation
+
+
+### July 6th - July 19th
+Matrix-free canonicalization - phase 3
+
+
+### July 20th - August 2nd
+Conversion to standard form for solvers 
+
+### August 3rd - August 16th
+Extract_solutions module
+
+### August 17th - August 21th 19:00 UTC
+Map-solutions to variables and Documentation. 
+
+**Week to scrub code, write tests, improve documentation, etc.**
+
+## Programming Skills
+I have worked with C, C++, Java, Python, R and Julia before. I would rate my programming expertise to be moderate.
+I usually use C++ for solving algorithmic questions from websites like Hackerrank, Codechef etc. 
+
+A MOOC course I completed in summer 2015 - Analytics Edge by MITx involved programming with R and I am quite comfortable with R. I have used Python for machine-learning scripts in the past (working with scikit-learn, numpy libraries). 
+
+Recently I helped build \textit{conda} packages for CVXPY to make installation easier. The files for the same are hosted [here](https://anaconda.org/Ramcha24/) for public download.
+
+Exercises using CVX that were part of my formal report for a study-oriented-project on campus are available in my github page - [CVX-exercises](https://github.com/ramcha24/cvx-exercises)
+
+My prototype implementation of the popular 2048 game in Java can be viewed here - [2048-game](https://github.com/ramcha24/2048-Game)
+
+Some of my code for graph-related algorithms like BFS,DFS,Dijkstra etc are available in my github repository - [Graph repo](https://github.com/ramcha24/DSA-Course/tree/master/Graph-Algos) . I am comfortable implementing graph algorithms using C++ with STL library. 
+
+## Academic Experience
+I am a third year undergraduate student pursuing Masters in Mathematics and Bachelors in Computer Science from BITS Pilani, Goa Campus. For the past 2-3 years, I have taken rigorous math courses like Algebra, Real Analysis, Measure and Integration, Topology. In particular I enjoyed the optimization-related courses like - Linear Programming, Non-Linear Optimization and Operations Research. 
+
+In summer of 2015, I did a literature survey of Feedback Vertex Set Problems in Graph Theory and the consequences of high girth for the same. I was supervised by [Dr. Venkatesh Raman](http://www.imsc.res.in/~vraman/). We discussed the paper by [Dross, Pinlou and Montassier](http://arxiv.org/pdf/1504.01949.pdf) with the long term goal of exploiting them to construct a new parametrized algorithm for the FVS problem. 
+
+My first exposure to Convex Optimization and the Stanford Convex Group was actually through a Machine Learning Project back in 2014 where I had to use Prof. Boyd's implementation of the interior point method for [l1-logreg](https://stanford.edu/~boyd/l1_logreg/l1-logistic regression). This led me to discover the vast amount of materials hosted on Prof. Boyd's web page for his Convex Optimization courses - EE364a/b - the video lectures, slides, the book, MATLAB files, extra exercises et cetera. I can never be grateful enough to Prof. Boyd for making these available online. For the past one year I have been reading and working my way through Prof. Boyd's book on Convex Optimization and it's been an immense pleasure to attempt the exercise questions (especially from the "Extra Exercises") and along the way I have greatly enjoyed implementing the solutions using CVX, CVXPY, Convex.jl, PICOS. 
+
+A formal report I had submitted as requirements for my study project on campus is available here - [ConvexReport](https://drive.google.com/open?id=0B8VQjSZlu4kKdjZ6eEhUNE12VTA)
+
+As a part of a formal project currently on campus, I am exploring the mathematics behind Network Analyis with the aim of bridging the gap between theoretical and empirical research. The project is supervised by [Prof Kinjal Banerjee](http://universe.bits-pilani.ac.in/goa/kinjalb/profile). We have been discussing the implications of the two papes by Bella Bollobas which provide a mathematical backing to well-known ideas - [Occurence of Largest Component](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.225.9909&rep=rep1&type=pdf) and [Scale-Free Networks](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.176.6988)
+
+I am currently doing a literature review on Pre-solving techniques. I have read the popular [paper](http://www.turma-aguia.com/davi/doc/Andersen.pdf) by Andersen and also the more recenet paper on [Partial Facial Reduction](https://github.com/frankpermenter/frlib) by Frank Permenter and Pablo Parrilo for SDP. I have been in contact with Madeleine Udell about the same.(formerly part of the Stanford Convex Group)
+
+I hope to investigate further into Pre-solving techniques for SDP optimization problems in the near future. 
+
+I think I am very well suited to work on the project proposed, as it requires a good comfort level with the theory of convex optimization and ability to absorb research material which I think I have learnt over the past year due to the above mentioned work. I believe that I can convert the ideas in this recent [paper](https://web.stanford.edu/~boyd/papers/abs_ops.html) to code and am eager to bring my never ending enthusiasm for Convex Optimization to this project and CVXPY.  
+
+## Future works
+CVX Core - Implementing Pre-solve , Dualize modules , Efficient modifications of expressions trees
+CVXPY - Ipython notebooks of basic examples , SDPA+
